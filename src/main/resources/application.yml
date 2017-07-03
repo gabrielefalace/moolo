@@ -1,1 +1,5 @@
 # ./mongod --dbpath ~/data/db
+spring:
+    data:
+        mongodb:
+            port: 27017
