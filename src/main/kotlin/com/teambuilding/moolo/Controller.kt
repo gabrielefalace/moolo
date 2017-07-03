@@ -15,6 +15,6 @@ class Controller {
         repo.save(Comment("123", "Aldo"))
         val comment = repo.findByName("Aldo")
         println(comment)
-        return "hi"
+        return "Moodlo is alive!"
     }
 }
